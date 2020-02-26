@@ -1,3 +1,18 @@
+Header = {
+  "title": "How to prepare emergency supplies",
+  "content":
+  """
+! The information contained in this guide is provided for informational purposes only. We cannot be held responsible for your actions.
+
++ <div class="jumbotron">
++  <h1 class="display-3">Introduction</h1>
++  <p class="lead">
++    Not everyone has a bunker in the woods. <strong>Most of us live probably in a city renting a small flat.</strong> This guide is based for people who aren't necessarily into prepping, are on a low budget and don't have a lot of time.
++  </p>
++  This guide is based on open source ressources. You are welcome to share it and improve it. <strong><a href="https://github.com/Marya-96/Emergency-Supply-Guide">Check out our GitHub project.</a></strong>
++ </div>
+  """
+}
 Money = {
   "title":  "Money",
   "icon":   "fa-dollar-sign",
@@ -11,6 +26,8 @@ It's also very important to rotate and eat your emergency stockpile in your dail
 * You don't waste food.
 * You don't waste your money and time.
 * You will know how to prepare food based on your emergency supplies. When disaster strikes, you won't be in unfamiliar territory. Simply doing what you already do on a daily basis. During emergencies it's a relief to not be completely disoriented.
+
+Make sure to have some cash. Credit card and online banking network might be disrupted during emergencies.
   """
 }
 
@@ -88,11 +105,12 @@ Again similar to dried food make sure you are doing rotations. Buy in sales to s
 
 You might not have access to a hot stove (no electricity or gas). It's always good to have ready to eat food like:
 
-* Beef
-* jerky
+* Beef jerky
 * Snacks
+* Cheese
 * Chocolate
 * Dried meat
+* MRE (if you can find them)
   """
 }
 
@@ -154,6 +172,22 @@ GeneralItems = {
   """
 }
 
+Home = {
+  "title":  "Home",
+  "icon":   "fa-home",
+  "content":
+  """
+! DO NOT STORE HAZARDOUS chemical in dangerous place (near heat sources, eletrical boards, food, etc).
+
+It is important to keep your house/flat/pantry clean. Not only it is nicer and more relaxing to live in a clean home, you will make it easier if disinfecting is needed. As we learned in the food section, bugs and other worms can quickly degrade your food and make it unsafe to eat. Ideally because you rotate and use your stockpile everyday this should not happen.
+
+* Make sure smoke alarm are working.
+* Have a fire extinguisher ready
+* Keep all your rooms and corridor free of any junk.
+* Food and Chemical products should be stored in different places.
+  """
+}
+
 Gardening = {
   "title":  "Gardening",
   "icon":   "fa-seedling",
@@ -175,13 +209,22 @@ Pets = {
   "icon":   "fa-paw",
   "content":
   """
- While you will not be able to be self sustainable with a garden in your balcony, making a small garden with vegetables can provide a few comfort food. This is also a cool project that helps coping with possible quarantine. If you know nothing about gardening, we recommend you to choose plants that grow in the climate / region where you live.
+Cats and Dogs, are our best friends. During emergencies it is important to not forget them. Make sure their needs are covered too in your emergency supply. Make sure they have their vaccines up to date.
 
-* Onions (very easy to grow and resistant to most bugs and pest)
-* Mint
-* Lemongrass
-* Lettuce
-* Chieves
-* Etc
+* Medicines (depending on your animal)
+* Food
+* Potty pads (in case you can't leave home)
+* Litter
+* Extra toys
+
+  """
+}
+
+Footer = {
+  "content":
+  """
+Prepping can be quite easy and save you money on the long run especially with dried food storage. The key is to start it and progressively build up. Don't forget to rotate your food and use from time to time your emergency gas stove to cook to make sure to know how to use it. <strong>Label all containers, food jars and your storage places so you can easily find stuff when needed.</strong> Print basic instructions and informations about the medications you need. Again without internet you might have to rely on those. Paper always works no matter what.
+
+<small>This document is released under the GNU GENERAL PUBLIC LICENSE V3. For more information you can read the LICENSE file. Any suggestions and contributors are welcome. <a href="https://github.com/Marya-96/Emergency-Supply-Guide">Sources can be found on GitHub.</a></small>
   """
 }

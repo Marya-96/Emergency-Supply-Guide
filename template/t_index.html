@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Emergency Supplies Guide</title>
+  <title>{{header["title"]}}</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -46,28 +46,21 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
-      <h1 class="text-light"><i class="fas fa-first-aid"></i> Emergency Supplies</h1>
+      <h1 class="text-light"><i class="fas fa-first-aid"></i> {{header["title"]}}</h1>
     </div>
   </nav>
   <div class="container main-content">
-
-    <div class="alert alert-warning">
-      <strong>Warning!</strong> The information contained in this guide is provided for informational purposes only. We cannot be held responsible for your actions.
-    </div>
-
-    <div class="jumbotron">
-      <h1 class="display-3">Introduction</h1>
-      <p class="lead">
-        Not everyone has a bunker in the woods. <strong>Most of us live probably in a city renting a small flat.</strong> This guide is based for people who aren't necessarily into prepping, are on a low budget and don't have a lot of time.
-      </p>
-      If you have suggestions, <a href="https://github.com/Marya-96/Emergency-Supply-Guide">you can check the project on GitHub.</a>
-    </div>
-
+    {{header["content"]}}
+    <!-- -->
     {% for section in sections %}
     <h3>
       <span class="fa-stack"><i class="fas fa-square fa-stack-2x"></i><i class="fas {{section['icon']}} fa-stack-1x fa-inverse"></i></span>{{section['title']}}
     </h3>
     {{section['content']}} {%endfor%}
+    <div class="text-center">
+      <h2>-</h2>
+    </div>
+    {{footer["content"]}}
 
   </div>
 
